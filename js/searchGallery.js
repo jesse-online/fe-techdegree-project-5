@@ -10,7 +10,7 @@ const searchImg = () => {
     
     for (let i = 0; i < a.length; i++) {
         item = a[i];
-        titleValue = item["title"];
+        titleValue = item.title;
         captionValue = item.getAttribute("data-caption");
         if ( titleValue.toLowerCase().includes(filter) || captionValue.toLowerCase().includes(filter) ) {
             item.style.display = "";
