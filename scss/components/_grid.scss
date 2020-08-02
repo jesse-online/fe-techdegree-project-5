@@ -1,0 +1,12 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.gallery {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 1rem;
+    margin: 20px auto;
+}
